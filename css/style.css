@@ -1,0 +1,574 @@
+html 
+{
+scroll-behavior: smooth;
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Lato", sans-serif;
+}
+.gotop
+{
+    width:60px;
+    height:100px;
+    background-color: blue;
+    position:sticky;
+    color:white;
+    bottom: 40px;
+    right:50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 100px;
+   
+}
+.modal i
+{
+    color:blue;
+    padding: 5px;
+    font-size: 23px;
+}
+.navbar 
+{
+    opacity: 0.7;
+    color:white;
+    background-color: black;
+    padding:10px 120px;
+}
+span 
+{
+    color:white;
+}
+.btn 
+{
+    color:black;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+.navbar ul li 
+{
+    padding: 10px 15px;
+    font-weight: bolder;
+}
+
+.navbar ul li a 
+{
+    font-size: 18px;
+    color:white;
+    font-family: "Lato", sans-serif;
+}
+.navbar ul li a:hover 
+{
+    color:rgb(126, 195, 241);
+}
+.navbar-toggler-icon
+{
+   
+    color:white;
+}
+/*------//nav end--------*/
+.carousel-item img
+{
+    height:100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.carousel-caption 
+{
+    top:33%;
+    left: 10%;
+    font-family: "Lato", sans-serif;
+}
+.carousel-caption h2 
+{
+    font-size: 47px;
+    font-weight: 500;
+}
+.carousel-caption p 
+{
+    font-size: 25px;
+    text-align: center;
+}
+/*----------//carosel-end-----------*/
+.japan-text
+{
+    width:100%;
+    height:100%;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    background-color: rgb(194, 194, 229);
+    box-shadow: 5px 10px #888888;
+}
+.japan-text .content img 
+{
+    width:80%;
+    height: 100%;
+    margin-top:20px;
+}
+.japan-text .content h1
+{
+    text-align: center;
+    font-size: 30px;
+    padding-top:20px;
+    color:blue;
+}
+.japan-text .content h5 
+{
+    text-align: center;
+    font-size: 25px;
+    color:black;
+    font-style: italic;
+}
+/*-------------//end japan-----------*/
+.info .card 
+{
+    margin:10px 10px;
+    font-family: "Lato", sans-serif;
+}
+.card 
+{
+    box-shadow: 5px 10px #888888;
+}
+.card:hover 
+{
+    background-color: skyblue;
+}
+.card .icon i 
+{
+    color:blue;
+}
+.card-body h5 
+{
+    text-align:center;
+    color:black;
+    font-size:25px;
+}
+.card-body p 
+{
+    text-align:center;
+}
+/*-------//end cards-------*/
+
+.packages
+{
+    margin-top:35px;
+    background-color:rgb(230, 227, 227);
+    padding:0px 50px;
+    font-family: "Lato", sans-serif;
+}
+.packages h4 
+{
+    color:black;
+    font-weight:500;
+    font-size: 35px;
+}
+.packages p 
+{
+    padding:10px 50px;
+}
+.box-img img 
+{
+    height:70%;
+    width:100%;
+}
+.box-img h3 
+{
+    color:black;
+    font-weight: 500;
+    font-size:28px;
+    text-align:center;
+}
+.box .carousel-control-prev .sr-only
+{
+    color:blue;
+}
+/*-------------//end packages--------*/
+footer 
+{
+    background-color: black;
+    padding:0px 50px;
+}
+footer p 
+{
+    color:white;
+}
+footer h5 
+{
+    color:white;
+}
+footer ul 
+{
+    list-style-type: none;
+}
+footer ul li a
+{
+text-decoration: none;
+color:skyblue;
+}
+footer i 
+{
+    color:skyblue;
+}
+/*----------------//end footer-------------------------*/
+.service
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../img/service.jpg');
+    height: 400px;
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+}
+.msg
+{
+    position: absolute;
+    top:40%;
+}
+.msg h1
+{
+    font-size: 60px;
+    padding-bottom:10px; 
+    text-align: center;
+    color:white;
+}
+
+.msg p
+{
+    font-size: 30px;
+    text-align: center;
+    color:white;
+}
+.service-text .card
+{
+    border:none;
+    outline: none;
+    box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+    -moz-box-shadow: -8px 6px 89px -65px rgba(0,0,0,0.75);
+    border:1px solid gainsboro;
+    width:100%;
+    height:100%;
+    padding-top: 20px;
+   
+}
+.circle-2 .circle-1 
+{
+    margin:20px;
+}
+.service-text .card p 
+{
+    color:gray;
+}
+.circle 
+{
+    height:80px;
+    width:80px;
+    background-color: lightgray;
+    color:black;
+    padding:12px;
+    display:inline-block;
+    font-size:30px;
+    border-radius:50%; 
+}
+.card:hover .circle 
+{
+    background-color: black;
+    color:white;
+}
+.card:hover 
+{
+    background-color: rgb(185, 185, 233);
+}
+/*--------------------//end services------------------------*/
+.faq-img 
+{
+ width: 100%;
+ height: 100%;
+}
+.FAQs 
+{
+    background-color: #f6f6f6;
+}
+.FAQ-head
+{
+    margin:100px auto;
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.3);
+}
+.FAQ-head .heading
+{
+    background-color: skyblue;
+    border-radius: 7px 7px 0px 0px;
+    padding: 10px;
+    color:black;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+}
+.FAQs-text 
+{
+    padding: 10px 20px;
+}
+
+::-webkit-details-marker{
+    float: right;
+    margin-top: 3px;
+}
+
+details{
+    background: #f6f6f6;
+    padding: 10px 20px;
+    border-radius: 7px;
+    margin-top: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+ }
+ details:hover
+ {
+     background-color: skyblue;
+ }
+ details summary{
+    outline: none;
+ }
+
+/*--------//end FAQs--------*/
+.flights
+{
+    background-image:url('../img/flights/Flight_widgit_Bg.jpg');
+    height: 400px;
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+}
+.msg-1 
+{
+    position:absolute;
+    top:30%;
+    left:26%;
+}
+.msg-1 h2
+{
+    color:white;
+    font-size: 50px;
+    padding-bottom:10px; 
+}
+.msg-1 h3
+{
+    color:white;
+    font-size: 25px;
+    padding-bottom:10px; 
+}
+
+.msg-1 p
+{
+    font-size: 20px;
+    text-align: center;
+    color:white;
+}
+
+
+  .image {
+    position: relative;  
+}
+.image h5 
+{
+    padding:7px;
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.3);
+}
+.image img {
+    
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    top:0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width:90%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding:30px;
+    text-align: center;
+}
+
+ .image:hover .overlay {
+    opacity: 1;
+}
+
+.overlay p {
+    font-size: 1em;
+    margin-top: 0.25em;
+}
+/*------------//end flights----------*/
+.place 
+{
+    margin-bottom: 15px;
+}
+.places h2 
+{
+    text-align: center;
+}
+.fact 
+{
+    background-color:skyblue;
+    width:100%;
+    height:85%;
+    text-align: center;
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.3);
+    overflow: hidden;
+}
+.fact ul li 
+{
+    text-decoration: none;
+    list-style-type: none;
+}
+.fact:hover 
+{
+    background-color:rgb(26, 151, 201);
+}
+/*--------------//end destinations--------------*/
+.cont .contact-add
+{
+    text-align: center;
+    padding:20px;
+}
+.cont .contact-add .fact 
+{
+    overflow: hidden;
+}
+.form-book 
+{
+    background-color: skyblue;
+    position:absolute;
+    top:65%;
+    color:black;
+    font-weight: 500;
+    font-size: 20px;
+}
+/*-------------//form-----------*/
+label 
+{
+   margin-bottom: 10px;
+}
+
+@media only screen and (max-width:900px)
+{
+   .navbar 
+   {
+       padding:5px 5px;
+   }
+   .carousel-caption 
+   {
+    top:24%;
+   }
+.carousel-caption h2 
+  {
+    font-size: 30px;
+  }
+.carousel-caption p 
+  {
+    font-size: 20px;
+  }
+  .form-book 
+  {
+      top:50%;
+  }
+  .service-text .card
+  {
+    margin-bottom: 20px;
+  }
+  .overlay 
+  {
+      width:80%;
+      font-size: 15px;
+  }
+}
+@media only screen and (max-width:1120px)
+{
+  
+    .navbar 
+  {
+    height:auto;
+    width:100%;
+    
+   }
+.navbar-brand
+{
+   height:65px;
+    line-height: 65px;
+}
+.navbar ul li 
+{
+    padding: 7px 5px;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+} 
+
+}
+
+@media only screen and (max-width:700px)
+{
+    .carousel-item img
+    {
+        height:100vh;
+    }
+    .carousel-caption 
+    {
+     top:20%;
+    }
+   .card
+   {
+       text-align: center;
+   }
+   .overlay 
+   {
+       width:98%;
+       font-size: 20px;
+   }
+   .form-book 
+   {
+    position:absolute;
+    top:45%;
+    font-size: 10px;
+   }
+     
+   .btn 
+   {
+    color:black;
+    padding: 5px 10px;
+    font-size: 12px;
+   }
+
+}
+@media only screen and (max-width:500px)
+{
+    .carousel-item img
+    {
+        height:130vh;
+    }
+    .form-book 
+    {
+        top:37%;
+    }
+    .carousel-caption 
+    {
+     top:10%;
+    }
+    .form-control
+    {
+        font-size: 10px;
+    }
+}

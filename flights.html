@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<link rel="stylesheet" href="css/style.css">
+<script src="script.js"></script>
+    <title>Travel Diaries</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand"  href="index.html"><img class="logo" src="img/logo/logo.png">
+          Travel<span>Diaries</span>
+        </a>
+        <button type="button" id="nav-toggle" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon">
+              <i class="fa fa-bars"></i>
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto mb-2 ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Holidays</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="flights.html">Flights</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="top destinations.html">Top destinations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="service.html">Services</a>
+          </li>
+            <li class="nav-item">
+                <a class="nav-link" href="FAQs.html">FAQ's</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#mymodal" role="button" class="btn btn-outline-primary" data-toggle="modal">Booking</a>
+          </li>
+            </ul>
+          </div>                    
+         </nav>
+        </div>
+        </div>
+      <section>
+        <div class="modal " tabindex="-1" id="mymodal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">BOOK YOUR NEXT TRIP</h3>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="form-group">
+                            <label><i class="fa fa-user fa-2x"></i>Username: </label>
+                            <input type="text" name="uname" class="form-control" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fa fa-envelope fa-2x"></i>Email: </label>
+                            <input type="Email" name="email" class="form-control" placeholder="Enter your Email">
+                        </div>
+                        <div class="form-group">
+                            <label><i class="fa fa-phone fa-2x"></i>Number: </label>
+                            <input type="text" name="number" class="form-control" placeholder="Enter your Number">
+                        </div>
+                        <div class="form-group">
+                          <label><i class="fa fa-globe fa-2x"></i>Destination: </label>
+                          <input type="text" name="number" class="form-control" placeholder="Enter your destination">
+                      </div>
+                        <div class="form-group">
+                            <label><i class="fa fa-comment fa-2x"></i>Message: </label>
+                            <input type="text" name="number" class="form-control" placeholder="Enter your Message here">
+                        </div>
+                    </form>
+                    <div class="modal-footer ">
+                        <button type="submit" class="btn btn-outline-danger">SEND MESSAGE</button>
+                        <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------//end nav---------------------->
+    <section class="flights">
+        <div class="msg-1">
+        <h2 class="text-center">Book Flight Tickets</h2>
+        <h3 class="text-center">Flights Update</h3>
+        <p>All passengers must be wearing mask properly.</br>
+        All passengers need to reach the airport atleast 2 hours or more prior to departure.</br>
+        Baggage allowance may vary from airlines to airlines.</p>
+        </div>
+      </section>
+    <!------------------------------banner------------------------------------------>
+  
+    <section class="team pt-5 pb-5">
+      <div class="container">
+              <div class="col-md-12">
+                  <h2 class="title text-center pb-3">Top India Destination for you</h2>
+                  <p>Travel diaries enables customers to efficiently book flights to approximately 70 plus destinations in the country.
+                       The top domestic destinations include Ahmadabad, Port-Blair, Delhi, Guwahati, Cochin, Goa, Bagdogra and Jaipur. 
+                       When it comes to choosing domestic flights, one should consider the following factors: preference of airline,
+                        class of travel, price, baggage allowance,
+                       food and on-board entertainment. The aforementioned factors will aid in making the most optimal decision</p>
+              </div>
+        <div class="row pt-2 mb-5">
+              <div class="image col-md-3 col-sm-12 ">
+                  <img src="img/flights/ahemdabad.jpg" class="img-fluid image " alt="...">
+                  <div class="overlay">
+                      <p>Mumabi &rarr; Ahemadabad  &#8377;3543.00</br>
+                        Delhi &rarr; Ahemadabad  &#8377;4000.00</br>
+                      </p>
+                  </div>
+                  <h5 class="text-center">Ahemadabad Flight</h5>
+              </div>
+              <div class="image col-md-3 col-sm-12">
+                  <img src="img/flights/port-blair.jpg" class="img-fluid image" alt="...">
+                  <div class="overlay">
+                    <p>Mumabi &rarr; port-blair  &#8377;4813.00</br>
+                        Delhi &rarr;port-blair  &#8377;4652.00</br>
+                      </p>
+                  </div>
+                  <h5 class="text-center">port-blair Flight</h5>
+              </div>
+              <div class="image col-md-3 col-sm-12">
+                  <img src="img/flights/DELHI.JPG" class="img-fluid image" alt="...">
+                  <div class="overlay">
+                    <p>Mumabi &rarr;delhi  &#8377;2463.00</br>
+                        Ahmadabad &rarr;delhi  &#8377;1789.00</br>
+                      </p>
+                  </div>
+                  <h5 class="text-center">delhi Flight</h5>
+              </div>
+              <div class="image col-md-3 col-sm-12">
+                <img src="img/flights/guwahati.jpg" class="img-fluid image" alt="...">
+                <div class="overlay">
+                    <p>Mumabi &rarr;guwahati  &#8377;6144.00</br>
+                        Ahmadabad &rarr;guwahati  &#8377;4599.00</br>
+                      </p>
+                </div>
+                <h5 class="text-center">guwahati Flight</h5>
+            </div>
+        </div>
+        <div class="row pt-2 mb-5">
+            <div class="image col-md-3 col-sm-12 ">
+                <img src="img/flights/cochin.jpg" class="img-fluid image " alt="...">
+                <div class="overlay">
+                    <p>Mumabi &rarr;cochin  &#8377;1789.00</br>
+                      pune &rarr;cochin  &#8377;1198.00</br>
+                    </p>
+                </div>
+                <h5 class="text-center">cochin Flight</h5>
+            </div>
+            <div class="image col-md-3 col-sm-12">
+                <img src="img/flights/goa.jpg" class="img-fluid image" alt="...">
+                <div class="overlay">
+                  <p>Mumabi &rarr;goa  &#8377;1698.00</br>
+                    Nwe Delhi &rarr;goa  &#8377;3182.00</br>
+                    </p>
+                </div>
+                <h5 class="text-center">goa Flight</h5>
+            </div>
+            <div class="image col-md-3 col-sm-12">
+                <img src="img/flights/Bagdogra.jpg" class="img-fluid image" alt="...">
+                <div class="overlay">
+                  <p>Mumabi &rarr;Bagdogra  &#8377;5480.00</br>
+                      delhi &rarr;Bagdogra  &#8377;3690.00</br>
+                    </p>
+                </div>
+                <h5 class="text-center">Bagdogra Flight</h5>
+            </div>
+            <div class="image col-md-3 col-sm-12">
+              <img src="img/flights/jaipur.jpg" class="img-fluid image" alt="...">
+              <div class="overlay">
+                  <p>pune &rarr;jaipur  &#8377;2898.00</br>
+                    delhi &rarr;jaipur  &#8377;1631.00</br>
+                    </p>
+              </div>
+              <h5 class="text-center">jaipur Flight</h5>
+          </div>
+      </div>
+      </div>
+
+      <div class="container">
+        <div class="col-md-12">
+            <h2 class="title text-center pb-3 pt-4">Top International Destination for you</h2>
+            <p>travel diaries enables customers to seamlessly book flights to approximately 100 plus destinations in the world.
+                 The top international destinations include Dubai, Singapore, Bangkok, Istanbul, Kuala Lumpur, Bali, Mauritius
+                  and Male (Maldives). When it comes to choosing international flights, one must consider the following factors:
+                   preference of airline, class of travel, duration of flight, route, transit stops, wait time, price, baggage allowance,
+                    food and on-board entertainment,
+                 landing airport and ground transit. The aforementioned factors will aid in making the most optimal decisions.
+                 </p>
+        </div>
+             <div class="row pt-2 mb-5">
+        <div class="image col-md-3 col-sm-12 ">
+            <img src="img/flights/01_Dubai.jpg" class="img-fluid" alt="...">
+            <div class="overlay">
+                <p>banglore &rarr;Dubai  &#8377;20784.00</br>
+                  Goa &rarr;Dubai  &#8377;102638.00</br>
+                </p>
+            </div>
+            <h5 class="text-center">Dubai Flight</h5>
+        </div>
+        <div class="image col-md-3 col-sm-12">
+            <img src="img/flights/02_Singapore.jpg" class="img-fluid image" alt="...">
+            <div class="overlay">
+              <p>banglore &rarr;Singapore  &#8377;15834.00</br>
+                  Goa &rarr;Singapore  &#8377;23858.00</br>
+                </p>
+            </div>
+            <h5 class="text-center">Singapore Flight</h5>
+        </div>
+        <div class="image col-md-3 col-sm-12">
+            <img src="img/flights/03_Bangkok.jpg" class="img-fluid image" alt="...">
+            <div class="overlay">
+                <p>banglore &rarr;bangkok  &#8377;10971.00</br>
+                    Goa &rarr;bangkok  &#8377;14366.00</br>
+                  </p>
+            </div>
+            <h5 class="text-center">bangkok Flight</h5>
+        </div>
+        <div class="image col-md-3 col-sm-12">
+          <img src="img/flights/istanbul.jpg" class="img-fluid image" alt="...">
+          <div class="overlay">
+            <p>banglore &rarr;istanbul  &#8377;18138.00</br>
+                Goa &rarr;istanbul &#8377;25057.00</br>
+              </p>
+          </div>
+          <h5 class="text-center">istanbul Flight</h5>
+      </div>
+  </div>
+  <div class="row pt-2 mb-5">
+    <div class="image col-md-3 col-sm-12 ">
+        <img src="img/flights/05_Kuala_lumpur.jpg" class="img-fluid" alt="...">
+        <div class="overlay">
+            <p>goa &rarr;kulala lumpur  &#8377;25363.00</br>
+              banglore &rarr;kulala lumpur  &#8377;13088.00</br>
+            </p>
+        </div>
+        <h5 class="text-center">kulala lampur Flight</h5>
+    </div>
+    <div class="image col-md-3 col-sm-12">
+        <img src="img/flights/06_Bali.jpg" class="img-fluid " alt="...">
+        <div class="overlay">
+          <p>banglore &rarr;bali  &#8377;18858.00</br>
+            kolkata &rarr;bali &#8377;23417.00</br>
+            </p>
+        </div>
+        <h5 class="text-center">bali Flight</h5>
+    </div>
+    <div class="image col-md-3 col-sm-12">
+        <img src="img/flights/mauritius.jpg" class="img-fluid image" alt="...">
+        <div class="overlay">
+          <p>Mumabi &rarr;mauritius  &#8377;22055.00</br>
+              Ahmadabad &rarr;mauritius  &#8377;24391.00</br>
+            </p>
+        </div>
+        <h5 class="text-center">mauritius Flight</h5>
+    </div>
+    <div class="image col-md-3 col-sm-12">
+      <img src="img/flights/08_Male.jpg" class="img-fluid image" alt="...">
+      <div class="overlay">
+          <p>banglore &rarr;male  &#8377;5842.00</br>
+            Goa &rarr;male  &#8377;18970.00</br>
+            </p>
+      </div>
+      <h5 class="text-center">Male Flight</h5>
+  </div>
+</div>
+</div>
+  </section><!----------------------------//end flights------------------------------------>
+  <footer>
+    <div class="container-fluid mt-5">
+      <div class="row">
+        <div class="col-md-3 mt-2">
+         <a class="img-fluid"  href="index.html"><img class="logo" src="img/logo/logo.png">
+           Travel Diaries
+         </a>
+         <p>Travel feeds the soul. 
+           It grows you by taking a dear place in your heart
+            with the memories it brings you.</p>
+        </div>
+        <div class="col-md-3 mt-2">
+          <h5>TOP DESTINATIONS</h5>
+          <ul>
+            <li><a href="#">New Zealand</a></li>
+            <li><a href="#">Scandinavia</a></li>
+            <li><a href="#">Amazing Australia</a></li>
+            <li><a href="#">Western Europe</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 mt-3">
+         <ul>
+           <li><a href="#">Classical Central</br> Europe</a></li>
+            <li><a href="#">Scenic South Africa</a></li>
+            <li><a href="#">Magical Japan</a></li>
+            <li><a href="#"> USA</a></li>
+         </ul>
+       </div>
+       <div class="col-md-3 mt-3">
+         <h5>CONTACT INFO</h5>
+         <p>
+       <i class="fa fa-address-card-o" aria-hidden="true"></i>
+       Navshantiniketan Housing socity,friends corner, Akurdi, pune
+       411044
+      </p>
+      <p>
+       <a href="#">
+         <i class="fa fa-phone" aria-hidden="true"></i>
+         +91 9359010071
+         </a>
+         </p>
+         <p>
+           <a href="#">
+         <i class="fa fa-envelope" aria-hidden="true"></i>
+         travel.diaries@gmail.com
+         </a>
+         </p>
+       </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-center">
+              © Copyright Travelties 2020. All Rights Reserved Powered By CNC Web World.
+            </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/graingert-wow/1.2.0/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    </html>
